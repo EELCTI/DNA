@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conheça os Nossos Desenvolvedores</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #0d89b8;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .titulo {
+            color: white;
+            font-size: 65px;
+            font-weight: 900;
+            line-height: 0.9;
+            text-transform: uppercase;
+            border: 2px solid #b700ff;
+            width: fit-content;
+            padding: 10px;
+            margin-bottom: 50px;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 50px;
+        }
+
+        .card {
+            background: black;
+            border-radius: 30px;
+            height: 260px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+        }
+
+        .foto {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            background: white;
+            position: absolute;
+            top: -20px;
+            object-fit: cover;
+        }
+
+        .nome {
+            color: white;
+            margin-top: 50px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .btn {
+            margin-top: 25px;
+            background: none;
+            border: none;
+            color: white;
+            font-size: 22px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            color: #00c3ff;
+        }
+
+        @media(max-width:768px) {
+
+            .titulo {
+                font-size: 40px;
+                width: 100%;
+            }
+
+            .cards {
+                gap: 35px;
+            }
+
+            .card {
+                height: 230px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="titulo">
+            CONHEÇA OS<br>
+            NOSSOS<br>
+            DESENVOLVEDORES!
+        </div>
+
+        <div class="cards">
+
+            <div class="card">
+                <img src="imagens/amanda.jpg" class="foto">
+                <div class="nome">Amanda Brito</div>
+                <a href="amanda.html" class="btn btn-primary rounded-pill px-4">
+                    ACESSAR
+                </a>
+            </div>
+
+            <div class="card">
+                <img src="imagens/bruno.jpg" class="foto">
+                <div class="nome">Bruno Dias</div>
+                <a href="https://aparecidodias.github.io/MeuSite/" class="btn btn-primary rounded-pill px-4">
+                    ACESSAR
+                </a>
+            </div>
+
+            <div class="card">
+                <img src="imagens/daiana.jpg" class="foto">
+                <div class="nome">Daiana Ferreira</div>
+                <a href="daiana.html" class="btn btn-primary rounded-pill px-4">
+                    ACESSAR
+                </a>
+            </div>
+
+            <div class="card">
+                <img src="imagens/davi.jpg" class="foto">
+                <div class="nome">Davi</div>
+                <a href="davi.html" class="btn btn-primary rounded-pill px-4">
+                    ACESSAR
+                </a>
+            </div>
+
+            <div class="card">
+                <img src="imagens/edna.jpg" class="foto">
+                <div class="nome">Edna Assis</div>
+                <a href="edna.html" class="btn btn-primary rounded-pill px-4">
+                    ACESSAR
+                </a>
+            </div>
+
+            <div class="card">
+                <img src="imagens/igor.jpg" class="foto">
+                <div class="nome">Igor</div>
+                <a href="igor.html" class="btn btn-primary rounded-pill px-4">
+                    ACESSAR
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
