@@ -5,7 +5,7 @@ body {
 }
 
 .banner {
-    background: #4b6dad;
+    background: #87a1d1;
     color: white;
     text-align: center;
     padding: 30px
@@ -19,7 +19,7 @@ body {
 }
 
 .container-produto {
-    background: white;
+    background: rgb(254, 255, 243);
     width: 250px;
     padding: 15px;
     border-radius: 10px
