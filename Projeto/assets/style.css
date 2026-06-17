@@ -1,0 +1,44 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #f4efe9
+}
+
+.banner {
+    background: #4b6dad;
+    color: white;
+    text-align: center;
+    padding: 30px
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px
+}
+
+.container-produto {
+    background: white;
+    width: 250px;
+    padding: 15px;
+    border-radius: 10px
+}
+
+.placeholder {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ddd
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse
+}
+
+th,td {
+    border: 1px solid #ccc;
+    padding: 8px
+}
