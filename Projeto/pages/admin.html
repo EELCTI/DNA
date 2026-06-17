@@ -15,10 +15,10 @@
 
     <link rel="icon" href="/assets/img/favicon.ico" type="img/x-icon">
     <link rel="stylesheet" href="/assets/style.css">
-
 </head>
 
 <body>
+
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <a class="navbar-brand" href="/index.html">
@@ -44,75 +44,70 @@
         </div>
     </nav>
 
+    <main>
+        <section class="container-admin-banner text-center">
+           
+            <h2>Lista de Produtos</h2>
 
+        </section>
 
+        <section class="container-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Produto</th>
+                        <th>Tipo</th>
+                        <th>Descricão</th>
+                        <th>Valor</th>
+                        <th colspan="2">Ação</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Bife</td>
+                        <td>Almoço</td>
+                        <td>Delicioso prato</td>
+                        <td>R$ 25.00</td>
+                        <td><a class="botao-editar" href="editar-produto.html">Editar</a></td>
+                        <td>
+                            <form>
+                                <input type="button" class="botao-excluir" value="Excluir">
+                            </form>
+                        </td>
 
-
-
-  <div class="text-center col-6">
-      <h2>Lista de Produtos</h2>
-  </div>
-
-  <section class="container-table col-6">
-    <table>
-      <thead>
-        <tr>
-          <th>Produto</th>
-          <th>Tipo</th>
-          <th>Descricão</th>
-          <th>Valor</th>
-          <th colspan="2">Ação</th>
-        </tr>
-      </thead>
-      <tbody>
-      <tr>
-        <td>Bife</td>
-        <td>Almoço</td>
-        <td>Delicioso prato</td>
-        <td>R$ 25.00</td>
-        <td><a class="botao-editar" href="editar-produto.html">Editar</a></td>
-        <td>
-          <form>
-            <input type="button" class="botao-excluir" value="Excluir">
-          </form>
-        </td>
-        
-      </tr>
-      <tr>
-        <td>Frango</td>
-        <td>Almoço</td>
-        <td>Delicioso prato</td>
-        <td>R$ 25.00</td>
-        <td><a class="botao-editar" href="editar-produto.html">Editar</a></td>
-        <td>
-          <form>
-            <input type="button" class="botao-excluir" value="Excluir">
-          </form>
-        </td>
-      </tr>
-      <tr>
-        <td>Café Gelado</td>
-        <td>Café</td>
-        <td>Delicioso prato</td>
-        <td>R$ 25.00</td>
-        <td><a class="botao-editar" href="editar-produto.html">Editar</a></td>
-        <td>
-          <form>
-            <input type="button" class="botao-excluir" value="Excluir">
-          </form>
-        </td>
-      </tr>
-      </tbody>
-    </table>
-  <a class="botao-cadastrar" href="cadastrar-produto.html">Cadastrar produto</a>
-  <form action="#" method="post">
-    <input type="submit" class="botao-cadastrar" value="Baixar Relatório"/>
-  </form>
-  </section>
-
-
-
-
+                    </tr>
+                    <tr>
+                        <td>Frango</td>
+                        <td>Almoço</td>
+                        <td>Delicioso prato</td>
+                        <td>R$ 25.00</td>
+                        <td><a class="botao-editar" href="editar-produto.html">Editar</a></td>
+                        <td>
+                            <form>
+                                <input type="button" class="botao-excluir" value="Excluir">
+                            </form>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Café Gelado</td>
+                        <td>Café</td>
+                        <td>Delicioso prato</td>
+                        <td>R$ 25.00</td>
+                        <td><a class="botao-editar" href="editar-produto.html">Editar</a></td>
+                        <td>
+                            <form>
+                                <input type="button" class="botao-excluir" value="Excluir">
+                            </form>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <a class="botao-cadastrar" href="cadastrar-produto.html">Cadastrar produto</a>
+            <form action="#" method="post">
+                <input type="submit" class="botao-cadastrar" value="Baixar Relatório" />
+            </form>
+        </section>
+    </main>
 </body>
 
 </html>
