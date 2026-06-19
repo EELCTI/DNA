@@ -14,19 +14,34 @@ body {
 .produtos {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
     padding: 20px
 }
 
 .container-produto {
     background: rgb(254, 255, 243);
-    width: 250px;
+    width: fit-content;
     padding: 15px;
     border-radius: 10px
 }
 
+.imagemfonte{
+
+    width: 250px;
+    padding: 02px;
+    border-radius: 10px;
+    
+}
+
+.imagemFonte{
+
+    width: 250px;
+    padding: 02px;
+    border-radius: 10px;
+    
+}
+
 .placeholder {
-    height: 120px;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
